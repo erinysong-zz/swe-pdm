@@ -1,0 +1,154 @@
+.navbar {
+  width: 100%;
+  margin-bottom: 60px;
+  padding-top: 10px;
+  background-color: white;
+}
+
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-family: Karla, Helvetica Neue;
+  padding: 0 15;
+}
+
+.navbar-default {
+  background-color: white !important;
+  background-image: none;
+  background-repeat: no-repeat;
+}
+
+.navbar .navbar-default {
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar-default .navbar-brand {
+  color: black;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #000000;
+}
+
+.navbar-default .navbar-text {
+  color: #6b6b6b;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #6b6b6b;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #000000;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: underline;
+  font-weight: 800;
+  background-image: none;
+  background-repeat: no-repeat;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar ul {
+  overflow: hidden;
+  float: right;
+}
+
+.navbar ul li {
+  float: left;
+}
+
+.navbar ul li a {
+  color: white; 
+  padding: 1 20px; 
+  text-decoration: none;
+}
+
+.page-wrapper {
+	height: 100%;
+	width: 100%;
+	transition: all .3s;
+}
+
+#title-section {
+	background: "berkeley.jpg";
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.section {
+	position: relative;
+}
+
+.darken {
+	position: absolute;
+    background-color: black;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.title {
+	position: absolute;
+    width: 100%;
+    height: 180px;
+    top: 0;
+    bottom: 300;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+
+#upper-title {
+	margin-top: 50px;
+	opacity: 0.9;
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 30px;
+}
+
+#main-title {
+	font-size: 36px;
+	font-family: "Open Sans", sans-serif;
+}
+
+#bottom-title {
+	opacity: 0.9;
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 30px;
+}
