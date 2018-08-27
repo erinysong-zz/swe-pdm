@@ -1,8 +1,12 @@
 .navbar {
   width: 100%;
-  margin-bottom: 60px;
-  padding-top: 10px;
-  background-color: white;
+  height: 20px;
+  padding-bottom: 0;
+  padding-top: 5px;
+  background-color: #328cc1;
+  margin-bottom: 0;
+  border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
 }
 
 .navbar .nav > li > a, .navbar .nav > li > a:first-letter,
@@ -15,11 +19,11 @@
 .navbar-brand {
   font-size: 24px;
   font-family: Karla, Helvetica Neue;
-  padding: 0 15;
+  margin: 0 15;
 }
 
 .navbar-default {
-  background-color: white !important;
+  background-color: #328cc1 !important;
   background-image: none;
   background-repeat: no-repeat;
 }
@@ -37,7 +41,7 @@
 }
 
 .navbar-default .navbar-brand {
-  color: black;
+  color: white;
   padding-bottom: 0px;
   margin-bottom: 0;
 }
@@ -48,11 +52,11 @@
 }
 
 .navbar-default .navbar-text {
-  color: #6b6b6b;
+  color: white;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #6b6b6b;
+  color: white;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -63,8 +67,8 @@
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #000000;
-  background-color: #ffffff;
+  color: white;
+  background-color: #328cc1;
   text-decoration: underline;
   font-weight: 800;
   background-image: none;
@@ -96,12 +100,12 @@
 }
 
 #title-section {
-	background: "berkeley.jpg";
+  height: 400px;
+  width: 100%;
+	background-color: #328cc1;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-	height: 100%;
-	width: 100%;
 	background-size: cover;
 }
 
@@ -111,34 +115,33 @@
 
 .darken {
 	position: absolute;
-    background-color: black;
-    opacity: 0.3;
-    width: 100%;
-    height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .title {
 	position: absolute;
-    width: 100%;
-    height: 180px;
-    top: 0;
-    bottom: 300;
-    left: 0;
-    right: 0;
-    margin: auto;
-    text-align: center;
-    color: black;
+  width: 100%;
+  height: 180px;
+  top: 50%;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  color: white;
 }
 
 #upper-title {
-	margin-top: 50px;
+	margin-top: 0;
 	opacity: 0.9;
-    font-size: 24px;
-    font-family: 'Dosis', sans-serif;
-    margin-bottom: 30px;
+  font-size: 24px;
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 30px;
 }
 
 #main-title {
@@ -148,7 +151,7 @@
 
 #bottom-title {
 	opacity: 0.9;
-    font-size: 24px;
-    font-family: 'Dosis', sans-serif;
-    margin-top: 30px;
+  font-size: 24px;
+  font-family: 'Dosis', sans-serif;
+  margin-top: 30px;
 }
